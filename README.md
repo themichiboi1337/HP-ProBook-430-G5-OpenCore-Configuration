@@ -29,8 +29,9 @@ OpenCore Configuration for running macOS Ventura on the HP ProBook 430 G5
 
 ### BIOS Settings
 #### Before you start
-- Reset all BIOS and Security Settings to Default
-- then change the following settings: 
+- Main -> Apply Factory Defaults and Exit
+- Security -> Restore Security Settings to Factory Defaults
+- only then change the following settings: 
 #### Security
 - Enable System Management Command
 #### Advanced -> Boot Options
