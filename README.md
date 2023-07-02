@@ -13,8 +13,7 @@ OpenCore Configuration for running macOS Ventura on the HP ProBook 430 G5
 - 16GB DDR4 2400MHz RAM
 - 13.3 Full HD IPS Display
 - Synaptics I2C TouchPad
-- Intel Dual Band Wireless AC 8265
-- Intel Bluetooth
+- Intel Dual Band Wireless AC 8265 and Bluetooth
 - 2 USB 3.0 Ports, 1 USB Type-C Port
 - HDMI Port
 - Realtek SD-Card Reader
