@@ -22,9 +22,8 @@ OpenCore Configuration for running macOS Ventura on the HP ProBook 430 G5
 - 2TB Samsung QVO 870 SATA SSD (Data)
 
 ## How to use?
-- you can use this as a reference
-- don't just copy & paste the EFI folder, instead you should read and understand the official OpenCore guide as things may change in the future
-- also, don't forget to add your own SMBIOS data
+- don't just copy & paste the EFI folder, instead use this only as a reference and read + understand the official OpenCore guide as things may change in the future
+- **Important**: don't forget to add your own SMBIOS data
 
 ### BIOS Settings
 #### Before you start
