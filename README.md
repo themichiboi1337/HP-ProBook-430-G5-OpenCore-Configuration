@@ -13,8 +13,7 @@ OpenCore Configuration for running macOS Ventura on the HP ProBook 430 G5
 - 16GB DDR4 2400MHz RAM
 - 13.3 Full HD IPS Display
 - Synaptics I2C TouchPad
-- Intel Dual Band Wireless AC 8265
-- Intel Bluetooth
+- Intel Dual Band Wireless AC 8265 and Bluetooth
 - 2 USB 3.0 Ports, 1 USB Type-C Port
 - HDMI Port
 - Realtek SD-Card Reader
@@ -23,14 +22,14 @@ OpenCore Configuration for running macOS Ventura on the HP ProBook 430 G5
 - 2TB Samsung QVO 870 SATA SSD (Data)
 
 ## How to use?
-- you can use this as a reference
-- don't just copy & paste the EFI folder, instead you should read and understand the official OpenCore guide as things may change in the future
-- also, don't forget to add your own SMBIOS data
+- don't just copy & paste the EFI folder, instead use this only as a reference and read + understand the official OpenCore guide as things may change in the future
+- **Important**: don't forget to add your own SMBIOS data
 
 ### BIOS Settings
-#### Starting Point
-- Reset all BIOS and Security Settings to Default
-- then change the following settings: 
+#### Before you start
+- Main -> Apply Factory Defaults and Exit
+- Security -> Restore Security Settings to Factory Defaults
+- only then change the following settings: 
 #### Security
 - Enable System Management Command
 #### Advanced -> Boot Options
